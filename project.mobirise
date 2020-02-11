@@ -51,7 +51,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 13,
+    "uniqCompNum": 14,
     "versionPublish": "4.11.6"
   },
   "pages": {
@@ -482,6 +482,22 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<div name=\"airvisual_widget\" key=\"ZmZoq2s35fh5pB9By\"></div>\n[JS_CODE_0]",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-d",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\" src=\"https://www.airvisual.com/scripts/widget_v2.0.js\"></script>"
+          ]
         },
         {
           "alias": false,
